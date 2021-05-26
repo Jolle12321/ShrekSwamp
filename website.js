@@ -27,5 +27,5 @@ function selectTab(tabIndex) {
   var sec = 0;
   function pad ( val ) { return val > 9 ? val : " " + val; }
   setInterval( function(){
-      document.getElementById("seconds").innerHTML=pad(++sec%60);
+      document.getElementById("seconds").innerHTML=pad(++sec);
   }, 1000);
